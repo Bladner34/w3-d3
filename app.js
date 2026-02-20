@@ -1,3 +1,5 @@
 'use strict';
-const myh2 = getElementById(myh2);
-console.log(myh2);
+
+const myh2 = document.getElementById("myh2");
+
+console.log(myh2)
