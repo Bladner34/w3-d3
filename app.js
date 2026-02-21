@@ -15,6 +15,6 @@ jsonForm.addEventListener("submit", function(event) {
         output2.textContent = items[1];
         output3.textContent = items[2];
     } catch (error) {
-        
+        output.textContent = "Error Occured"
     }
 })
