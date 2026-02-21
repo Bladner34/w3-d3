@@ -1,6 +1,6 @@
 'use strict';
 
-const output = document.getElementById ("output");
+const output = document.getElementById("output");
 const output2 = document.getElementById("output2");
 const output3 = document.getElementById("output3");
 
@@ -12,8 +12,8 @@ jsonForm.addEventListener("submit", function(event) {
     try {
         const items = JSON.parse(jsonForm.jsonInput.value);
         output.textContent = items[0];
-        output.textContent = items [1];
-        output.textContent = items [2];
+        output2.textContent = items[1];
+        output3.textContent = items[2];
     } catch (error) {
         
     }
